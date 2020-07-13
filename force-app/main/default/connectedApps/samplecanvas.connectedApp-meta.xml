@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://whispering-island-66729.herokuapp.com/canvas-demo/</canvasUrl>
+        <locations>Chatter</locations>
+        <locations>Visualforce</locations>
+        <locations>Aura</locations>
+        <locations>Publisher</locations>
+        <locations>ChatterFeed</locations>
+        <locations>ServiceDesk</locations>
+        <locations>OpenCTI</locations>
+        <locations>MobileNav</locations>
+        <locations>PageLayout</locations>
+        <options>PersonalEnabled</options>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>dscruggs@salesforce.com</contactEmail>
+    <label>samplecanvas</label>
+    <oauthConfig>
+        <callbackUrl>https://whispering-island-66729.herokuapp.com/canvas-demo/</callbackUrl>
+        <consumerKey>3MVG98RqVesxRgQ6lScsbarcLv3TjE25y6GufsN8fs26TXdvWYRjYhMjjpNQpf71TyX_9T92by3f5negYOWXa</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+    </oauthConfig>
+    <permissionSetName>simplecanvasperm</permissionSetName>
+</ConnectedApp>
